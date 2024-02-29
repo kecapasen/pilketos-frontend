@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   env: {
     PORT: "3000",
-    BASE_URL: "http://localhost:5000",
+    BASE_URL: "https://api.rizzky.my.id",
   },
 };
 
